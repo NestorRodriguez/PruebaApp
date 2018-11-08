@@ -1,0 +1,74 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url(images/color.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+* {box-sizing: border-box;
+ 
+
+}
+
+.logimg{
+
+    height: 200px;
+    width: 200px;
+    padding: 60px;
+}
+
+
+
+.login{
+
+    margin: 200px auto;
+    width: 300px;
+    padding: 30px 25px;
+    border:1px solid;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.container {
+    padding: 16px;
+    border-radius: 1px;
+
+}
